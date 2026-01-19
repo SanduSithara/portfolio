@@ -52,3 +52,37 @@ footer {
   padding: 20px;
   color: #666;
 }
+
+.cv-button {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #2563eb;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.cv-button:hover {
+  background-color: #1d4ed8;
+}
+
+@media (max-width: 600px) {
+
+  header {
+    padding: 25px;
+  }
+
+  section {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
